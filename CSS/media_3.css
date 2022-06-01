@@ -1,0 +1,194 @@
+@media (max-width: 868px) {
+    body.disabled{
+      overflow: hidden;
+    }
+    .icon{
+      display: block;
+    }
+    .icon.hide{
+      display: none;
+    }
+    .dws-menu .menu-list{
+      position: fixed;
+      height: 100vh;
+      width: 100%;
+      max-width: 400px;
+      left: -100%;
+      top: 0px;
+      display: block;
+      padding: 40px 0;
+      text-align: center;
+      background:#017a92b9;
+      transition: all 0.3s ease;
+    }
+    .dws-menu.show .menu-list{
+      left: 0%;
+    }
+    .dws-menu .menu-list li{
+      margin-top: 45px;
+    }
+    .dws-menu .menu-list li a{
+      font-size: 23px;
+      margin-left: -100%;
+      transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    }
+    .dws-menu.show .menu-list li a{
+      margin-left: 0px;
+    }
+
+    .dws-menu .menu-list ul{
+        margin-top: 45px;
+      }
+    .dws-menu .menu-list ul a{
+        font-size: 23px;
+        margin-left: -100%;
+        transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+      }
+    .dws-menu.show .menu-list ul a{
+        margin-left: 0px;
+      }
+
+    .lucky_tour_caption h1 {
+        font-size: 70px;
+        margin-top: 15%;
+        z-index: -1;
+    }
+
+    .menu-list li a{
+        color: #fff;
+        background: none;
+        font-size: 18px;
+        font-weight: 500;
+        margin-left: 25px;
+      }
+    .menu-list li a:hover{
+        color: #017a92;
+        box-shadow: 1px 5px 10px -5px black;
+        background: none;
+      }
+
+    .menu-list li{
+        border-right: none;
+      }
+
+    .dws-menu .menu-list li a {
+        font-size: 21.5px;
+    }
+
+    .menu-list li:hover > ul {
+      display: none;
+    } 
+  }
+
+  @media (max-width: 1200px) {
+  .row > .column {
+    width:24%;
+  }
+  
+
+@media (max-width: 1024px){
+    .intro {
+        max-height: 320px;
+    }
+
+    .preface {
+        padding: 12px 9%;
+    }
+
+    .aboutarmeniatitle {
+      font-size: 26px;
+    }
+
+    .aboutarmeniacontent {
+      font-size: 18px;
+    }
+}
+
+
+@media (max-width:768px) {
+    .intro {
+        max-height: 230px;
+    }
+    
+    .homepagelink {
+        font-size: 30px;
+        margin-top: 6%;
+    }
+
+    .footer_menu_row{
+        width: 650px;
+      }
+ 
+    .preface {
+        padding: 15px 8%;
+    }
+
+    .quote_armenia {
+        padding: 17px 0 8px;
+    }
+
+    .preface h1 {
+      font-size: 53px;
+      padding: 40px;
+  }
+}
+
+@media (max-width: 600px) {
+  .row > .column {
+    width:23.5%;
+  }
+
+@media all and (max-width: 425px){
+    .intro {
+        max-height: 150px;
+    }
+
+    .homepagelink {
+        font-size: 19px;
+        margin-top: 4%;
+        font-weight: 600;
+    }
+
+    .space-between_row{
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+      }
+
+    .sub_footer p {
+        font-size: 85%;
+    }
+
+    .row > .column {
+      width:23%;
+    }
+
+    .preface p {
+        font-size: 13.5px;
+    }
+
+    .preface {
+        padding: 17px 8%;
+    }
+    
+    .preface h1 {
+      font-size: 40px;
+      padding: 35px;
+  }
+
+    .quote_armenia {
+        padding: 12px 0 7px;
+    }
+
+    .dws-menu .menu-list li a {
+        font-size: 20px;
+    }
+
+    .aboutarmeniatitle {
+      font-size: 24px;
+    }
+
+    .aboutarmeniacontent {
+      font-size: 16px;
+    }
+}

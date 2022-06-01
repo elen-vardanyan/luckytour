@@ -1,0 +1,279 @@
+@media (max-width: 868px) {
+    body.disabled{
+      overflow: hidden;
+    }
+    .icon{
+      display: block;
+    }
+    .icon.hide{
+      display: none;
+    }
+    .dws-menu .menu-list{
+      position: fixed;
+      height: 100vh;
+      width: 100%;
+      max-width: 400px;
+      left: -100%;
+      top: 0px;
+      display: block;
+      padding: 40px 0;
+      text-align: center;
+      background:#017a92b9;
+      transition: all 0.3s ease;
+    }
+    .menu-list li:hover > ul {
+        display: none;
+    } 
+    .dws-menu.show .menu-list{
+      left: 0%;
+    }
+    .dws-menu .menu-list li{
+      margin-top: 45px;
+    }
+    .dws-menu .menu-list li a{
+      font-size: 23px;
+      margin-left: -100%;
+      transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    }
+    .dws-menu.show .menu-list li a{
+      margin-left: 0px;
+    }
+
+    .dws-menu .menu-list ul{
+        margin-top: 45px;
+      }
+    .dws-menu .menu-list ul a{
+        font-size: 23px;
+        margin-left: -100%;
+        transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+      }
+    .dws-menu.show .menu-list ul a{
+        margin-left: 0px;
+      }
+
+    .lucky_tour_caption h1 {
+        font-size: 70px;
+        margin-top: 15%;
+        z-index: -1;
+    }
+
+    .menu-list li a{
+        color: #fff;
+        background: none;
+        font-size: 18px;
+        font-weight: 500;
+        margin-left: 25px;
+      }
+    .menu-list li a:hover{
+        color: #017a92;
+        box-shadow: 1px 5px 10px -5px black;
+        background: none;
+      }
+
+    .menu-list li{
+        border-right: none;
+      }
+
+    .dws-menu .menu-list li a {
+        font-size: 21.5px;
+    }
+  }
+
+@media (max-width: 1024px){
+    .intro {
+        max-height: 320px;
+    }
+
+    .information {
+        width: 50%;
+        padding-left: 10%;
+    }
+
+    .infotitle {
+        font-size: 22px;
+    }
+
+    iframe {
+        width: 400px;
+        height: 84%;
+        border: 30px solid rgba(255, 0, 0, 0);
+    }
+
+    .infocontent {
+        font-size:19px;
+    }
+
+    .luckytour_footer_img img {
+        padding-top:20px;
+    }
+}
+
+
+@media (max-width:768px) {
+    .intro {
+        max-height: 230px;
+    }
+    
+    .homepagelink {
+        font-size: 30px;
+        margin-top: 6%;
+    }
+
+    .footer_menu_row{
+        width: 650px;
+      }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .information {
+        width: 58%;
+        padding-left: 0;
+    }
+
+    .infotitle {
+        font-size: 25px;
+    }
+
+    .infocontent {
+        font-size:20px;
+    }
+
+    .location {
+        width: 100%;
+    }
+
+    iframe {
+        width: 100%;
+        border: none;
+        height: 220px;
+    }
+ 
+}
+@media all and (max-width: 425px){
+    .intro {
+        max-height: 150px;
+    }
+
+    .dws-menu .menu-list li a {
+        font-size: 20px;
+    }
+
+    .homepagelink {
+        font-size: 19px;
+        margin-top: 4%;
+        font-weight: 600;
+    }
+
+    .space-between_row{
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+      }
+
+    .sub_footer p {
+        font-size: 85%;
+    }
+
+    .contactustitle {
+        font-size: 45px;
+        padding-top:20px;
+    }
+    
+    .contactuscontent {
+        font-size: 15px;
+        padding: 10px 6%;
+    }
+
+    form {
+        width: 320px;
+        height: 500px;
+    }
+
+    button {
+        margin: 12px 3px 0; 
+        padding: 10px 30px;
+    }
+
+    .information {
+        width:75%;
+    }
+    .infotitle {
+        font-size: 22px;
+        padding-bottom: 8px;
+    }
+
+    .infocontent {
+        font-size: 18px;
+    }
+
+    .socnetwork img {
+        margin: 5px;
+        max-width: 23px;
+        max-height: 23px;
+    }
+
+}
+
+@media all and (max-width: 425px){
+    .intro {
+        max-height: 150px;
+    }
+
+    .dws-menu .menu-list li a {
+        font-size: 20px;
+    }
+
+    .homepagelink {
+        font-size: 19px;
+        margin-top: 4%;
+        font-weight: 600;
+    }
+
+    .space-between_row{
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+      }
+
+    .sub_footer p {
+        font-size: 85%;
+    }
+
+    .contactustitle {
+        font-size: 40px;
+        padding-top:20px;
+    }
+    
+    .contactuscontent {
+        font-size: 15px;
+        padding: 10px 6%;
+    }
+
+    form {
+        width: 280px;
+        height: 500px;
+        padding:10px;
+    }
+
+    button {
+        margin: 10px 2px 0; 
+        padding: 8px 24px;
+    }
+
+    .information {
+        width:75%;
+    }
+    .infotitle {
+        font-size: 22px;
+        padding-bottom: 8px;
+    }
+
+    .infocontent {
+        font-size: 18px;
+    }
+
+}

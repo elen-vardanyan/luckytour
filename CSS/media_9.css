@@ -1,0 +1,231 @@
+@media (max-width: 868px) {
+    body.disabled{
+      overflow: hidden;
+    }
+    .icon{
+      display: block;
+    }
+    .icon.hide{
+      display: none;
+    }
+
+    .menu-list li:hover > ul {
+      display: none;
+    }
+     
+    .dws-menu .menu-list{
+      position: fixed;
+      height: 100vh;
+      width: 100%;
+      max-width: 400px;
+      left: -100%;
+      top: 0px;
+      display: block;
+      padding: 40px 0;
+      text-align: center;
+      background:#017a92b9;
+      transition: all 0.3s ease;
+    }
+    .dws-menu.show .menu-list{
+      left: 0%;
+    }
+    .dws-menu .menu-list li{
+      margin-top: 45px;
+    }
+    .dws-menu .menu-list li a{
+      font-size: 23px;
+      margin-left: -100%;
+      transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    }
+    .dws-menu.show .menu-list li a{
+      margin-left: 0px;
+    }
+
+    .dws-menu .menu-list ul{
+        margin-top: 45px;
+      }
+    .dws-menu .menu-list ul a{
+        font-size: 23px;
+        margin-left: -100%;
+        transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+      }
+    .dws-menu.show .menu-list ul a{
+        margin-left: 0px;
+      }
+
+    .lucky_tour_caption h1 {
+        font-size: 70px;
+        margin-top: 15%;
+        z-index: -1;
+    }
+
+    .menu-list li a{
+        color: #fff;
+        background: none;
+        font-size: 18px;
+        font-weight: 500;
+        margin-left: 25px;
+      }
+    .menu-list li a:hover{
+        color: #017a92;
+        box-shadow: 1px 5px 10px -5px black;
+        background: none;
+      }
+
+    .menu-list li{
+        border-right: none;
+      }
+
+    .dws-menu .menu-list li a {
+        font-size: 21.5px;
+    }
+  }
+
+@media (max-width: 1024px){
+    .intro {
+        max-height: 320px;
+    }
+
+    .timeline ul li div {
+        width: 307px;
+      }
+
+    .timeline ul li:nth-child(even) div {
+        left: -377px;
+        /*250+45-6
+        350+70*/
+      }
+
+}
+
+@media (max-width:768px) {
+    .intro {
+        max-height: 230px;
+    }
+    
+    .homepagelink {
+        font-size: 30px;
+        margin-top: 6%;
+    }
+
+    .footer_menu_row{
+        width: 650px;
+      }
+    
+      .timeline ul li {
+        margin-left: 20px;
+      }
+      .timeline ul li div {
+        width: calc(100vw - 120px);
+      }
+      .timeline ul li:nth-child(even) div {
+        left: 45px;
+      }
+      .timeline ul li:nth-child(even) div::before {
+        left: -15px;
+        border-width: 8px 16px 8px 0;
+        border-color: transparent #017a92bb transparent transparent;
+      }
+    
+      .tour_formore {
+        padding: 30px 12%;
+      }
+    
+      .tour_title h1 {
+        font-size: 28px;
+        line-height: 1.1;
+      }
+    
+      .about_tour h2 {
+        margin-top: 32px;
+        font-size: 21px;
+      }
+    
+      .tour_description {
+        font-size:15px;
+      }
+
+    .tour_features {
+        margin-top: 30px;
+        display:grid;
+        grid-template-columns: repeat(3,33.3%);
+        grid-row-gap:1em;
+    }
+
+    .tour_features div:nth-child(4) {
+      border:none;
+    }
+
+    .wrapper{
+      padding: 50px 10px;
+    }
+
+}
+
+@media all and (max-width: 425px){
+    .intro {
+        max-height: 150px;
+    }
+
+    .dws-menu .menu-list li a {
+        font-size: 20px;
+    }
+
+    .homepagelink {
+        font-size: 19px;
+        margin-top: 4%;
+        font-weight: 600;
+    }
+
+    .space-between_row{
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+      }
+
+    .sub_footer p {
+        font-size: 85%;
+    }
+
+    .tour_formore {
+      padding: 35px 8%;
+    }
+
+    .tour_title h1 {
+      font-size: 27px;
+    }
+
+    .tour_features i {
+      font-size:28px;
+    }
+    
+    .tour_feature_title {
+      padding-top: 7px;
+      font-size:12px;
+      line-height:normal;
+    }
+    
+    .tour_feature {
+      font-size:12px;
+      padding-top:3px;
+    }
+}
+
+@media all and (max-width: 375px) {
+  .tour_formore {
+    padding: 35px 5%;
+  }
+
+  .tour_features i {
+    font-size:25px;
+  }
+  
+  .tour_feature_title {
+    padding-top: 7px;
+    font-size:11px;
+  }
+  
+  .tour_feature {
+    font-size:10px;
+  }
+}
